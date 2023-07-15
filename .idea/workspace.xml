@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9f4f8e6-5ac0-45fb-870e-7ffb84354d5d" name="Changes" comment="Homework33">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DeleteBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GenerateToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/GetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PartialUpdateBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CreateBookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UpdateBookingTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SAGpw5ofhWBPvSyHYdtDLuHP8t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studying\QA Automation\Homework\dz-16\src\test\java\tests\restassuretests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UpdateBookingTest">
+    <configuration name="DeleteBookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DeleteBookingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetBookingTest.getBookingIdsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GetBookingTest" />
+      <option name="METHOD_NAME" value="getBookingIdsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartialUpdateBookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PartialUpdateBookingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateBookingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UpdateBookingTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateBookingTest.updateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="dz-16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.UpdateBookingTest" />
+      <option name="METHOD_NAME" value="updateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UpdateBookingTest" />
+        <item itemvalue="TestNG.UpdateBookingTest.updateBooking" />
+        <item itemvalue="TestNG.PartialUpdateBookingTest" />
+        <item itemvalue="TestNG.DeleteBookingTest" />
+        <item itemvalue="TestNG.GetBookingTest.getBookingIdsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9f4f8e6-5ac0-45fb-870e-7ffb84354d5d" name="Changes" comment="" />
+      <created>1688582158682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688582158682</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Homework33">
+      <created>1689014899596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689014899596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework33" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework33" />
+  </component>
+</project>
