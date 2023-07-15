@@ -4,7 +4,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-public class GetTest {
+public class GetBookingTest extends BasicTest {
     @Test
     public void getBookingIdsTest() {
         Response response = RestAssured.get("https://restful-booker.herokuapp.com/booking");

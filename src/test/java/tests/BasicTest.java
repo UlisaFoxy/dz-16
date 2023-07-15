@@ -7,7 +7,7 @@ import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.annotations.BeforeClass;
 
-public class GenerateToken {
+public class BasicTest {
     public static String TOKEN_VALUE;
     public static final String TOKEN = "token";
 

@@ -1,10 +1,11 @@
 package tests;
 
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-public class PostTest extends GenerateToken {
+public class CreateBookingTest extends BasicTest {
     @Test
     public void createNewBookingBook() {
 
@@ -19,7 +20,10 @@ public class PostTest extends GenerateToken {
                 .build();
 
         Response response = RestAssured.given().log().body()
+                .given()
+                .header("Accept", "application/json")
                 .body(body)
+                .when()
                 .post("/booking/");
         response.prettyPrint();
 

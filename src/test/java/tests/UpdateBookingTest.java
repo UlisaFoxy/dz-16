@@ -4,12 +4,14 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-public class PutTest extends GenerateToken{
+import static org.testng.Assert.assertEquals;
+
+public class UpdateBookingTest extends BasicTest {
     @Test
     public void updateBooking() {
 
         CreateNewBookingBody body = new CreateNewBookingBody().builder()
-                .firstname("Josh_New")
+                .firstname("Josh_New33")
                 .lastname("Allen")
                 .totalprice(111)
                 .depositpaid(true)
@@ -19,9 +21,12 @@ public class PutTest extends GenerateToken{
                 .build();
 
         Response response = RestAssured.given().log().body()
+                .header("Accept", "application/json")
                 .body(body)
                 .put("/booking/{id}", 33);
         response.prettyPrint();
+        int statusCode = response.getStatusCode();
+        assertEquals(statusCode, 200, "The booking №33 wasn't updated" + statusCode);
 
     }
 }
